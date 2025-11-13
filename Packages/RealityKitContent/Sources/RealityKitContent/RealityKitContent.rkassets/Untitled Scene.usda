@@ -1,0 +1,15 @@
+#usda 1.0
+(
+    defaultPrim = "Springtime_Top"
+)
+
+def "Springtime_Top" (
+    active = true
+    prepend references = @Springtime_Top.usdz@
+)
+{
+    float3 xformOp:scale = (100, 100, 100)
+    float3 xformOp:translate = (5.1697073, -0.000011920929, 73.95045)
+    uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:orient", "xformOp:scale"]
+}
+

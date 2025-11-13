@@ -1,0 +1,19 @@
+#usda 1.0
+
+def RealityKitTimeline "Timeline"
+{
+    def RealityKitTrack "Track"
+    {
+    }
+
+    def "_11" (
+        active = true
+        prepend references = @11.usdz@
+    )
+    {
+        float3 xformOp:scale = (100, 100, 100)
+        float3 xformOp:translate = (-2.0889356, 0, 131.13628)
+        uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:orient", "xformOp:scale"]
+    }
+}
+
